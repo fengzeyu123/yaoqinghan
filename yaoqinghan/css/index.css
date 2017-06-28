@@ -1,0 +1,342 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.swiper-container{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide{
+    background: #b5e2df;
+}
+.clear{
+    clear: both;
+}
+/*第一屏*/
+.page1 .pic1{
+    width: 1.76rem;
+    height: 0.59rem;
+    margin: 0 auto;
+    margin-top: 0.35rem;
+}
+.page1 .pic1 img{
+    width: 100%;
+}
+.page1 .pic2{
+    width: 2.66rem;
+    height: 2.66rem;
+    margin: 0 auto;
+    margin-top: 0.7rem;
+
+}
+.page1 .pic2 img{
+    width: 100%;
+}
+.page1 .pic3{
+    width: 1.99em;
+    height: 0.8rem;
+   position: absolute;
+    top: 1.7rem;
+    left: 0.84rem;
+
+}
+.page1 .pic3 img{
+    width: 100%;
+}
+.page1 p{
+    color: white;
+    font-size: 0.15rem;
+   position: absolute;
+    top: 3.85rem;
+    left: 1.05rem;
+}
+.page1 .pic4{
+    width: 0.75em;
+    height: 0.71rem;
+    margin: 0 auto
+
+}
+.page1 .pic4 img{
+    width: 100%;
+}
+.page1 .pic5{
+    width: 0.93em;
+    height: 0.36rem;
+    margin: 0 auto
+
+}
+.page1 .pic5 img{
+    width: 100%;
+}
+/*第二屏*/
+.page2 .pic1{
+    width: 1.6rem;
+    height: 0.79rem;
+    position: absolute;
+    top: 0.18rem;left: 1.05rem;
+    z-index: 99;
+}
+.page2 .pic1 img{
+    width: 100%;
+    height: 100%;
+}
+.page2 .pic2{
+    width: 3.01rem;
+    height: 2.81rem;
+    position: absolute;
+    top: 0.9rem;left: 0.3rem;
+}
+.page2 .pic2 img{
+    width: 100%;
+    height: 100%;
+}
+.page2 .pic3{
+    width: 2.46rem;
+    height: 1.35rem;
+    position: absolute;
+    bottom: 0.1rem;left: 0.2rem;
+}
+.page2 .pic3 img{
+    width: 100%;
+    height: 100%;
+}
+
+/*第三屏*/
+.page3 .pic1{
+    width: 1.48rem;
+    height: 0.36rem;
+    font-size: 0;
+    margin: 0.3rem auto;
+}
+.page3 .pic1 img{
+    width: 100%;
+}
+
+.page3 .parent{
+    width: 2.57rem;
+    height: 3.85rem;
+    background: #3da7a0;
+    font-size: 0;
+   padding-top: 0.01rem;
+    padding-bottom: 0.2rem;
+    margin: 0 auto;
+    margin-top: 0.8rem;
+}
+.page3 .parent .pic2{
+    width: 2.35rem;
+    height: 0.56rem;
+    margin-top: 0.2rem;
+    margin-left: 0.1rem;
+    font-size: 0;
+
+}
+.page3 .parent .pic2 img{
+    width: 100%;
+}
+
+/*第四屏*/
+.page4 h1{
+    width: 1.72rem;
+    height: 0.24rem;
+    font-size: 0;
+    margin: 0 auto;
+}
+.page4 h1 img{
+    width: 100%;
+}
+.page4 p{
+    font-size: 0.16rem;
+    color: white;
+    font-weight: bold;
+    margin-left: 0.5rem;
+    margin-top: 0.2rem;
+}
+.page4 span{
+    display: block;
+    font-size: 0.12rem;
+    color: #414141;
+    margin:0.2rem 0 0.2rem 0.25rem;
+
+}
+.page4 .pic1{
+    width: 2.86rem;
+    height: 2.13rem;
+    margin-left: 0.3rem;
+    margin-top: 0.35rem;
+}
+.page4 .pic1 img{
+    width: 100%;
+}
+
+/*第五屏*/
+.page5 .pic1{
+    width: 2.22rem;
+    height: 0.24rem;
+    font-size: 0;
+    margin: 0.45rem auto;
+}
+.page5 .pic1 img{
+    width: 100%;
+}
+.page5 h1{
+    font-size: 0.16rem;
+    color: #838383;
+    margin-left: 0.35rem;
+    line-height: 0.3rem;
+}
+.page5 a{
+    display: block;
+    width: 1.15rem;
+    height: 0.32rem;
+    background: #27c3b9;
+    font-size: 0.22rem;
+    text-align: center;
+    line-height: 0.32rem;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0.6rem 0 0 0.4rem;
+}
+.page5 h2{
+    font-size: 0.16rem;
+    color: white;
+    line-height: 0.3rem;
+    margin-left: 0.4rem;
+    margin-top: 0.2rem;
+}
+.page5 .lipin{
+    width: 3.53rem;
+    height: 1.68rem;
+    background: url("../images/bg.png");
+    background-size: 100%;
+    margin-top: 0.8rem;
+    padding-top: 0.35rem;
+}
+.page5 .lipin p{
+    font-size: 0.16rem;
+    color: #2fc5bb;
+    font-weight: bold;
+    margin-left: 0.4rem;
+}
+
+/*第六屏*/
+.page6 .pic1{
+    width: 1.91rem;
+    height: 0.24rem;
+    font-size: 0;
+    margin: 0.5rem auto;
+}
+.page6 .pic1 img{
+    width: 100%;
+}
+.page6 .box1{
+    width: 100%;
+    height: 0.75rem;
+    background: white;
+    opacity: 0.8;
+    padding-top: 0.18rem;
+    margin-bottom: 0.4rem;
+}
+.page6 .box1 h2{
+    font-size: 0.16rem;
+    color: #27c3b9;
+    line-height: 0.3rem;
+    margin-left: 0.5rem;
+    float: left;
+
+}
+.page6 .box1 img{
+    width: 0.97rem;
+    height: 0.56rem;
+    float: right;
+    margin-right: 0.1rem;
+}
+
+/*第七屏*/
+.page7 h1{
+    background: url("../images/shouji2.png") no-repeat;
+    font-size: 0.2rem;
+    height: 0.71rem;
+    width: 1.46rem;
+    padding-left: 0.65rem;
+    padding-top: 0.2rem;
+    margin:0 auto;
+    margin-top: 0.7rem;
+}
+.page7 h2{
+    font-size: 0.16rem;
+    margin-left: 0.8rem;
+}
+.page7 .erweima{
+    width: 1.52rem;
+    height: 1.52rem;
+    margin: 0.5rem auto;
+}
+.page7 .erweima img{
+    width: 100%;
+}
+.page7 .beijing{
+    width: 3.53rem;
+    height: 1.31rem;
+    background: url("../images/beijing2.png");
+    background-size: 100%;
+    position: absolute;
+    bottom: 0;
+  
+}
+
+/*第八屏*/
+.page8 .pic1{
+    width: 1.94rem;
+    height: 0.33rem;
+    font-size: 0;
+    margin: 0.4rem auto;
+}
+.page8 .pic1 img{
+    width: 100%;
+}
+.page8 .box2{
+    width: 1.47rem;
+    height: 1.54rem;
+    background: white;
+    opacity: 0.7;
+    text-align: center;
+    padding-top: 0.1rem;
+    float: left;
+    margin-left: 0.2rem;
+    margin-bottom: 0.2rem;
+    padding-bottom: 0.1rem;
+}
+.page8 .box2 img{
+    width: 0.84rem;
+    height: 1.15rem;
+    font-size: 0;
+}
+.page8 .box2 p{
+    font-size: 0.16rem;
+    color: #03afa4;
+    font-weight: bold;
+}
+.page8 h1{
+    font-size: 0.14rem;
+    color: #01b269;
+    text-align: center;
+}
+.page8 .bg{
+     width: 3.53rem;
+    height: 0.82rem;
+    position: absolute;
+    bottom: 0;
+}
+.page8 .bg img{
+    width: 100%;
+}
+
+
+
+
